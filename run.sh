@@ -25,11 +25,11 @@ done
 if [[ ! -z $VAR_NAME ]]; then
   echo
   echo "Files written to /var/opt/nginx:"
-  echo "============================"
+  echo "================================"
   ls /var/opt/nginx
 fi
 
 echo
 echo "nginx output:"
-echo "=============="
+echo "============="
 exec nginx -g "daemon off;"
