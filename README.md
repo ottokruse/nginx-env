@@ -1,5 +1,8 @@
 # nginx-env
 
+![build](https://img.shields.io/docker/cloud/build/ottokruse/nginx-env)
+![docker pulls](https://img.shields.io/docker/pulls/ottokruse/nginx-env)
+
 Just your regular nginx (nginx:alpine), but one where you can inject configuration and files through environment variables.
 
 This may be of use to you if you need to run simple reverse proxies, that just need a bit of custom nginx config. No need to create a new image then, just run this one, and provide your custom nginx configuration like so:
